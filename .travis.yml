@@ -1,5 +1,10 @@
-sudo: required
-dist: trusty
+#sudo: required
+#dist: trusty
 
-script:
-  - bash -xve ./test/travis_ros_install.bash
+#script:
+#  - bash -xve ./test/travis_ros_install.bash
+
+language: ruby
+rvm:
+ - 2.2
+ - jruby
